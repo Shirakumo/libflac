@@ -35,6 +35,10 @@ FLAC_EXPORT uint8_t flac_bits_per_sample(flac_file *file){
 }
 
 FLAC_EXPORT uint64_t flac_sample_count(flac_file *file){
+  return ((drflac *)file)->totalSampleCount;
+}
+
+FLAC_EXPORT uint64_t flac_frame_count(flac_file *file){
   return ((drflac *)file)->totalSampleCount /
     ((drflac *)file)->channels;
 }

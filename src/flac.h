@@ -39,6 +39,7 @@ extern "C" {
   FLAC_EXPORT uint32_t flac_sample_rate(flac_file *file);
   FLAC_EXPORT uint8_t flac_bits_per_sample(flac_file *file);
   FLAC_EXPORT uint64_t flac_sample_count(flac_file *file);
+  FLAC_EXPORT uint64_t flac_frame_count(flac_file *file);
   FLAC_EXPORT uint64_t flac_read_s16(void *data, uint64_t samples, flac_file *file);
   FLAC_EXPORT uint64_t flac_read_s32(void *data, uint64_t samples, flac_file *file);
   FLAC_EXPORT uint64_t flac_read_f32(void *data, uint64_t samples, flac_file *file);
