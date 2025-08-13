@@ -1,21 +1,4 @@
-## About libflac
-This is a very minimal library to decode FLAC files.
+# This repository has [moved](https://shirakumo.org/projects/libflac)!
+Due to Microsoft's continued enshittification of the platform this repository has been moved to [Codeberg](https://shirakumo.org/projects/libflac) in August of 2025. It will not receive further updates or patches. **Issues and pull requests will not be looked at here either**, please submit your patches and issue tickets on Codeberg, or send them directly via good old email patches to [shirakumo@tymoon.eu](mailto:shirakumo@tymoon.eu).
 
-## API
-The API is documented in [flac.h](src/flac.h).
-
-## Building It
-Requirements:
-
-* CMake 3.1+
-* A C99 compiler
-
-Steps:
-
-* `mkdir build`
-* `cd build`
-* `cmake ..`
-* `make`
-
-## Included Sources
-* [dr_flac.h](https://github.com/mackron/dr_libs/blob/master/dr_flac.h)
+Thanks.
